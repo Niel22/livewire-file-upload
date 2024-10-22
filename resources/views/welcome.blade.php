@@ -12,7 +12,14 @@
         <script src="https://cdn.tailwindcss.com"></script>
 
     </head>
-    <body>
-        
+    <body class="antialized">
+        <div class="flex">
+            <div class="w-2/4 mx-auto pt-10">
+                <livewire:users-list lazy/>
+            </div>
+            {{-- <div class="w-2/4">
+                <livewire:registration-form />
+            </div> --}}
+        </div>
     </body>
 </html>
